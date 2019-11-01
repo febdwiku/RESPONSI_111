@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Daftar">
+
+    <RelativeLayout
+        android:id="@+id/lay_juduldaftar"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#AD3C38">
+
+        <TextView
+            android:id="@+id/judul_daftar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="DAFTAR"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="32sp"
+            android:textStyle="bold"></TextView>
+
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/eTnamalengkapdaftar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lay_juduldaftar"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="10dp"
+        android:drawableStart="@drawable/ic_face_black_24dp"
+        android:hint="Nama Lengkap"></EditText>
+
+    <EditText
+        android:id="@+id/eTphonedaftar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/eTnamalengkapdaftar"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:inputType="number"
+        android:drawableStart="@drawable/ic_local_phone_black_24dp"
+        android:hint="Telp"></EditText>
+
+    <EditText
+        android:id="@+id/eTusernamedaftar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/eTphonedaftar"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:drawableStart="@drawable/ic_person_black_24dp"
+        android:hint="Username"></EditText>
+
+    <EditText
+        android:id="@+id/eTpassworddaftar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/eTusernamedaftar"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:drawableStart="@drawable/ic_lock_black_24dp"
+        android:hint="Password"
+        android:inputType="textPassword"></EditText>
+
+    <Button
+        android:id="@+id/btn_daftar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/eTpassworddaftar"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:text="daftar"></Button>
+
+
+
+
+</RelativeLayout>

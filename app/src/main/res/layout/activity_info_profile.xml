@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Info_profile">
+
+    <RelativeLayout
+        android:id="@+id/lay_judul_info"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#AD3C38">
+
+        <TextView
+            android:id="@+id/judul_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="INFO PROFILE"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="32sp"
+            android:textStyle="bold"></TextView>
+
+    </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tVnamalengkap_info"
+            android:layout_below="@id/lay_judul_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Nama Lengkap        :">
+        </TextView>
+        <TextView
+            android:id="@+id/tVnamalengkap_info1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/tVnamalengkap_info"
+            android:layout_toRightOf="@id/tVnamalengkap_info"
+            android:layout_marginLeft="10dp">
+        </TextView>
+        <TextView
+            android:id="@+id/tVtelp_info"
+            android:layout_below="@id/tVnamalengkap_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Telp                           :">
+        </TextView>
+        <TextView
+            android:id="@+id/tVtelp_info1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/tVtelp_info"
+            android:layout_toRightOf="@id/tVtelp_info"
+            android:layout_marginLeft="10dp">
+        </TextView>
+        <TextView
+            android:id="@+id/tVusername_info"
+            android:layout_below="@id/tVtelp_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Username                 :">
+        </TextView>
+        <TextView
+            android:id="@+id/tVusername_info1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/tVusername_info"
+            android:layout_toRightOf="@id/tVusername_info"
+            android:layout_marginLeft="10dp">
+        </TextView>
+        <TextView
+            android:id="@+id/tVpassword_info"
+            android:layout_below="@id/tVusername_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Password                 :">
+        </TextView>
+        <TextView
+            android:id="@+id/tVpassword_info1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/tVpassword_info"
+            android:layout_toRightOf="@id/tVpassword_info"
+            android:layout_marginLeft="10dp">
+        </TextView>
+
+
+</RelativeLayout>
